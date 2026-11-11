@@ -2,18 +2,12 @@ services:
   - type: web
     name: orbit-store
     runtime: python
-    plan: starter            # persistent disks require a paid plan
+    plan: free               # demo setup: no persistent disk, data resets on redeploy/restart
     buildCommand: pip install -r requirements.txt
-    # Single instance only: SQLite and uploads live on one disk.
+    # Single worker: SQLite is a local file.
     startCommand: ORBIT_ORIGIN="$RENDER_EXTERNAL_URL" gunicorn wsgi:application --workers 1 --threads 4 --bind 0.0.0.0:$PORT
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.10
       - key: ORBIT_SECURE_COOKIES
         value: "1"
-      - key: ORBIT_DATA_DIR
-        value: /var/data/orbit
-    disk:
-      name: orbit-data
-      mountPath: /var/data
-      sizeGB: 1
