@@ -1,0 +1,37 @@
+ORBIT STUDIO: REFINED UI & CATEGORIZED MANAGEMENT
+
+ALREADY HAVE AN ACCOUNT? Read UPGRADE_FROM_PREVIOUS_VERSION.txt first.
+Copy your old data folder into this new store to keep your login and orders.
+
+1. Extract this ZIP fully. Do not run it from inside the ZIP.
+2. Double-click START_STORE.bat and keep that window open.
+3. Open http://127.0.0.1:8000 in Chrome or Edge.
+4. Create an account on the website.
+
+To manage products and orders:
+Double-click CREATE_ADMIN.bat and choose your own administrator login.
+Then log in on the website and open Store management in the footer.
+No default administrator password is included.
+
+Python 3.10 or newer is required. Your installed Python 3.14 is suitable.
+You do not need to install extra Python packages to run locally.
+
+This version needs the Python server. Opening public/index.html directly
+will not work. START_STORE.bat selects the correct folder automatically.
+
+This is a working local backend, not a publicly launched store.
+Cash-on-delivery orders work. Online payments are not connected.
+Replace the sample catalog before taking real customer orders.
+
+Read README.md for accounts, administration, password recovery,
+database backups, hosting, and the remaining launch requirements.
+
+All 12 supplied products now have matching 3D models.
+Hover to rotate. Click to open, then drag to inspect and scroll to zoom.
+On phones, open a product, drag to turn, and pinch to zoom.
+The first hover loads the model, so allow it a moment.
+
+In Manage Store, use Overview, Products, Inventory and Orders.
+Products and Inventory have department filters and search.
+Inventory has finish/size rows with individual stock controls.
+Orders can be filtered by fulfillment status.

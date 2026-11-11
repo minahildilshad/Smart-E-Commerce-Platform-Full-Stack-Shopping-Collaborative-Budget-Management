@@ -1,0 +1,273 @@
+[
+  {
+    "id": "studio-shoe",
+    "name": "Studio Sneaker",
+    "cat": "Fashion",
+    "base": 29900,
+    "off": 15,
+    "path": "",
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "colors": [
+      "Original",
+      "midnight",
+      "beach",
+      "street"
+    ],
+    "frames": 1,
+    "width": 0,
+    "stock": 20,
+    "model": "/assets/models/MaterialsVariantsShoe.glb",
+    "image": "/assets/models/MaterialsVariantsShoe.jpg",
+    "description": "Textured knit upper, sculpted sole, and three original material finishes.",
+    "asset": "MaterialsVariantsShoe"
+  },
+  {
+    "id": "sunglasses",
+    "name": "Prism Sunglasses",
+    "cat": "Fashion",
+    "base": 12500,
+    "off": 10,
+    "path": "",
+    "sizes": [
+      "One size"
+    ],
+    "colors": [
+      "Original"
+    ],
+    "frames": 1,
+    "width": 0,
+    "stock": 20,
+    "model": "/assets/models/SunglassesKhronos.glb",
+    "image": "/assets/models/SunglassesKhronos.jpg",
+    "description": "Reflective lenses, polished frames, and fine detail from every angle.",
+    "asset": "SunglassesKhronos"
+  },
+  {
+    "id": "chrono-watch",
+    "name": "Chronograph Edition",
+    "cat": "Fashion",
+    "base": 48500,
+    "off": 12,
+    "path": "",
+    "sizes": [
+      "Standard"
+    ],
+    "colors": [
+      "Original",
+      "Surgical White",
+      "Midnight Gold",
+      "Commerce Green",
+      "Khronos Red"
+    ],
+    "frames": 1,
+    "width": 0,
+    "stock": 20,
+    "model": "/assets/models/ChronographWatch.glb",
+    "image": "/assets/models/ChronographWatch.jpg",
+    "description": "A sculpted chronograph with detailed dial, carbon-fibre strap, and four finishes.",
+    "asset": "ChronographWatch"
+  },
+  {
+    "id": "velvet-chair",
+    "name": "Velvet Accent Chair",
+    "cat": "Home",
+    "base": 42500,
+    "off": 15,
+    "path": "",
+    "sizes": [
+      "Standard"
+    ],
+    "colors": [
+      "Original",
+      "Mango Velvet",
+      "Peacock Velvet"
+    ],
+    "frames": 1,
+    "width": 0,
+    "stock": 20,
+    "model": "/assets/models/SheenChair.glb",
+    "image": "/assets/models/SheenChair.jpg",
+    "description": "Soft velvet upholstery and a compact silhouette, with two supplied fabric finishes.",
+    "asset": "SheenChair"
+  },
+  {
+    "id": "velvet-sofa",
+    "name": "Glam Velvet Sofa",
+    "cat": "Home",
+    "base": 125000,
+    "off": 15,
+    "path": "",
+    "sizes": [
+      "Standard"
+    ],
+    "colors": [
+      "Original",
+      "Champagne",
+      "Navy",
+      "Gray",
+      "Black",
+      "Pale Pink"
+    ],
+    "frames": 1,
+    "width": 0,
+    "stock": 20,
+    "model": "/assets/models/GlamVelvetSofa.glb",
+    "image": "/assets/models/GlamVelvetSofa.jpg",
+    "description": "A tailored velvet sofa with five original upholstery finishes.",
+    "asset": "GlamVelvetSofa"
+  },
+  {
+    "id": "leather-sofa",
+    "name": "Heritage Leather Sofa",
+    "cat": "Home",
+    "base": 189000,
+    "off": 10,
+    "path": "",
+    "sizes": [
+      "Standard"
+    ],
+    "colors": [
+      "Original"
+    ],
+    "frames": 1,
+    "width": 0,
+    "stock": 20,
+    "model": "/assets/models/SheenWoodLeatherSofa.glb",
+    "image": "/assets/models/SheenWoodLeatherSofa.jpg",
+    "description": "Carved wood and textured leather in a classic three-seat silhouette.",
+    "asset": "SheenWoodLeatherSofa"
+  },
+  {
+    "id": "barn-lamp",
+    "name": "Brushed Copper Wall Lamp",
+    "cat": "Home",
+    "base": 18500,
+    "off": 12,
+    "path": "",
+    "sizes": [
+      "Standard"
+    ],
+    "colors": [
+      "Original"
+    ],
+    "frames": 1,
+    "width": 0,
+    "stock": 20,
+    "model": "/assets/models/AnisotropyBarnLamp.glb",
+    "image": "/assets/models/AnisotropyBarnLamp.jpg",
+    "description": "A copper-toned wall light with detailed brushed-metal surfaces.",
+    "asset": "AnisotropyBarnLamp"
+  },
+  {
+    "id": "glass-dish",
+    "name": "Iridescent Covered Dish",
+    "cat": "Home",
+    "base": 8900,
+    "off": 10,
+    "path": "",
+    "sizes": [
+      "Standard"
+    ],
+    "colors": [
+      "Original"
+    ],
+    "frames": 1,
+    "width": 0,
+    "stock": 20,
+    "model": "/assets/models/IridescentDishWithOlives.glb",
+    "image": "/assets/models/IridescentDishWithOlives.jpg",
+    "description": "A decorative glass dish with a lifting lid, gold-leaf detail, and an olive display.",
+    "asset": "IridescentDishWithOlives"
+  },
+  {
+    "id": "speaker",
+    "name": "Portable Audio Player",
+    "cat": "Electronics",
+    "base": 24900,
+    "off": 15,
+    "path": "",
+    "sizes": [
+      "Standard"
+    ],
+    "colors": [
+      "Original"
+    ],
+    "frames": 1,
+    "width": 0,
+    "stock": 20,
+    "model": "/assets/models/BoomBox.glb",
+    "image": "/assets/models/BoomBox.jpg",
+    "description": "A portable audio concept with a detailed shell, speaker grille, and display.",
+    "asset": "BoomBox"
+  },
+  {
+    "id": "heritage-camera",
+    "name": "Heritage Camera & Tripod",
+    "cat": "Electronics",
+    "base": 65000,
+    "off": 10,
+    "path": "",
+    "sizes": [
+      "Standard"
+    ],
+    "colors": [
+      "Original"
+    ],
+    "frames": 1,
+    "width": 0,
+    "stock": 20,
+    "model": "/assets/models/AntiqueCamera.glb",
+    "image": "/assets/models/AntiqueCamera.jpg",
+    "description": "A vintage bellows camera and tripod, presented as a decorative collector concept.",
+    "asset": "AntiqueCamera"
+  },
+  {
+    "id": "bottle",
+    "name": "Everyday Water Bottle",
+    "cat": "Travel",
+    "base": 3200,
+    "off": 10,
+    "path": "",
+    "sizes": [
+      "Standard"
+    ],
+    "colors": [
+      "Original"
+    ],
+    "frames": 1,
+    "width": 0,
+    "stock": 20,
+    "model": "/assets/models/WaterBottle.glb",
+    "image": "/assets/models/WaterBottle.jpg",
+    "description": "A reusable bottle with a detailed cap and textured label.",
+    "asset": "WaterBottle"
+  },
+  {
+    "id": "street-lantern",
+    "name": "Architectural Street Lantern",
+    "cat": "Home",
+    "base": 35500,
+    "off": 10,
+    "path": "",
+    "sizes": [
+      "Standard"
+    ],
+    "colors": [
+      "Original"
+    ],
+    "frames": 1,
+    "width": 0,
+    "stock": 20,
+    "model": "/assets/models/Lantern.glb",
+    "image": "/assets/models/Lantern.jpg",
+    "description": "A timber post and hanging lantern, presented as an outdoor architectural piece.",
+    "asset": "Lantern"
+  }
+]

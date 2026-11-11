@@ -1,0 +1,28 @@
+ORBIT STUDIO UI UPDATE: KEEP YOUR ACCOUNT AND ORDERS
+
+1. In the old store's black server window, press Ctrl+C to stop it.
+2. Make a backup copy of the old store folder.
+3. Extract this new ZIP into a separate folder.
+4. Copy the entire data folder from your old Orbit_Full_Stack folder into
+   this new Orbit_Full_Stack folder, alongside server.py.
+   Copy it only after the old server has stopped.
+5. Double-click the NEW folder's START_STORE.bat.
+6. Open http://127.0.0.1:8000 and press Ctrl+F5 to refresh the website.
+7. Log in with your existing administrator email and password.
+
+Your accounts and order history are preserved in the copied database.
+If you already use All 3D, the existing catalog, stock and orders remain
+as they are. This UI update does not reseed your products.
+
+Only if upgrading from the older photo-only store, the first start creates
+a database backup in data/backups, archives that catalog, and adds the
+12 matching 3D products.
+Old order lines retain their original names and prices.
+Carts are cleared only for that first photo-to-3D catalog migration.
+The migration runs once. Later starts preserve your edited prices and stock.
+
+Do not replace your data folder with an empty one.
+Do not run both old and new servers on port 8000 at the same time.
+
+If you do not copy your old data folder, this runs as a new empty store.
+Use CREATE_ADMIN.bat only if you want to create a new owner account.
